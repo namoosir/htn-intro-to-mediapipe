@@ -38,7 +38,7 @@
     onFrame: async () => {
       await selfieSegmentation.send({image: videoElement});
     },
-    width: 640,
-    height: 480
+    width: 1280,
+    height: 720
   });
   camera.start();
